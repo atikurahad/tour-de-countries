@@ -11,10 +11,11 @@ const Countries = () => {
 
   return (
     <>
-      <h1>Total: {countries.length}</h1>
+     <div className="grid grid-cols-4 gap-4 mx-6 my-6 bg-slate-500 text-white">
       {countries.map((country) => (
-        <Country country={country} key={country.cca2}></Country>
+        <Country  country={country} key={country.cca2}></Country>
       ))}
+     </div>
     </>
   );
 };
