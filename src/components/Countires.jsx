@@ -12,9 +12,11 @@ const Countires = () => {
   }, []);
   return (
     <>
-      {countries.map((country) => {
-        <Country country={country} />;
-      })}
+     
+    <div className="grid grid-cols-3 gap-4 m-4 p-4">
+    {countries.map(country => <Country key={country.ccn3} country={country}></Country> )} 
+      
+    </div>
     </>
   );
 };
