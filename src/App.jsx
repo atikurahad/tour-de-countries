@@ -1,11 +1,11 @@
+import Countires from "./components/Countires"
 
-import Countries from './components/countries/Countries'
 
 function App() {
 
   return (
     <>
-     <Countries/>
+    <Countires/>
     </>
   )
 }
